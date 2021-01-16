@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Enter Google API Key with Places and Distance Matrix Enabled -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=Enter Your Google API Key"></script>
+    <title>Distance Shipping Calculator</title>
+</head>
+
+<body>
+    <label for="dest">Delivery Location</label>
+    <input id="dest" type="text" placeholder="Enter your delivery location">
+    <input type="button" value="Calculate Distance" onclick="calculateDistance()">
+    <label for="dist">Distance</label>
+    <input id="dist" type="text" disabled>
+    <p id="shipping-rate"></p>
+</body>
+
+</html>
